@@ -1,0 +1,11 @@
+node_modules/
+.npm-cache/
+dist/
+.data/
+.env
+.env.*
+!.env.example
+npm-debug.log*
+*.pem
+*.key
+desktop.ini

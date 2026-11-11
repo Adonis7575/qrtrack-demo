@@ -1,0 +1,47 @@
+.badge {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 20px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  transition: border-color 0.2s;
+}
+
+.badge:hover {
+  border-color: var(--border-bright);
+}
+
+.accent {
+  border-color: var(--accent-dim);
+  background: linear-gradient(135deg, var(--bg-elevated) 0%, rgba(163,255,77,0.04) 100%);
+}
+
+.icon {
+  color: var(--accent);
+  margin-bottom: 4px;
+  display: flex;
+}
+
+.value {
+  font-family: var(--font-mono);
+  font-size: 28px;
+  font-weight: 500;
+  color: var(--text-primary);
+  letter-spacing: -1px;
+  line-height: 1;
+}
+
+.accent .value {
+  color: var(--accent);
+}
+
+.label {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  margin-top: 2px;
+}
